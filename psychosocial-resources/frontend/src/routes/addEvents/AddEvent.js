@@ -7,7 +7,7 @@ function AddEvents() {
     const { register, handleSubmit, reset} = useForm();
     
     const cachedFn = useCallback((data) => {
-    fetch(`http://localhost:5001/getHelp`,{
+    fetch(`https://migramind-7imp.vercel.app/getHelp`,{
             method : 'POST',
             body: JSON.stringify(data),
             headers: {

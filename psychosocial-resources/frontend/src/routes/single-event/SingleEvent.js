@@ -9,7 +9,7 @@ const SingleEvent = () => {
     
     const [moreInfo, setMoreInfo] = useState([]);
     const eventId = useParams();
-    const backend_url = process.env.REACT_APP_URL_BACKEND ?? 'http://localhost:5001';
+    const backend_url = process.env.REACT_APP_URL_BACKEND ?? 'https://migramind-7imp.vercel.app/';
 
     useEffect(()=> {
         fetch(`${backend_url}/getHelp/${eventId.id}`)
