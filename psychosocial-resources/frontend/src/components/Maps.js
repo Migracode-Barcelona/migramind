@@ -25,7 +25,7 @@ const Maps = () => {
         .then((data) => {
           setInfo(data);
         });
-    }, []);
+    }, [backend_url, infoId.id]);
     return (
         info.map( (item) => {
             return item.latitud && item.longitud != null ?
@@ -46,7 +46,7 @@ const Maps = () => {
                                         <br/>
                                         {item.phone}
                                         <br/>
-                                        <a target="_blank" href={item.url_basic}>{item.url_basic}</a>
+                                        <a target="_blank" rel="noreferrer" href={item.url_basic}>{item.url_basic}</a>
                                         <br/>
                                         Email: {item.email}
                                     </Popup>

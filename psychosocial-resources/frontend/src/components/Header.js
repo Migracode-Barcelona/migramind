@@ -12,8 +12,8 @@ const Header = () => {
     <Carousel fade>
       
       <Carousel.Item>
-        <img class="img-fluid"
-          className="d-block w-100"
+        <img
+          className="d-block w-100 img-fluid"
           src={imagen1}
           alt="First slide"
         />
@@ -23,8 +23,8 @@ const Header = () => {
            </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img class="img-fluid"
-          className="d-block w-100"
+        <img 
+          className="d-block w-100 img-fluid"
           src={imagen2}
           alt="Second slide"
         />
@@ -34,8 +34,8 @@ const Header = () => {
            </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img class="img-fluid"
-          className="d-block w-100"
+        <img 
+          className="d-block w-100 img-fluid"
           src={imagen3}
           alt="Third slide"
         />

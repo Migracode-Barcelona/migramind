@@ -29,8 +29,8 @@ const Results = () => {
           alt="First slide"
         />
         
-        <div class=" p-4 w-100">
-        <div class=" row row-cols-1 row-cols-md-2  g-2">
+        <div className=" p-4 w-100">
+        <div className=" row row-cols-1 row-cols-md-2  g-2">
             {event.length > 0 ? event.map(item => {
                 return(
                 <EventCard key={item.id} 

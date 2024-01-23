@@ -25,7 +25,9 @@ function App() {
           <Route element={<Psychology/>} path='psychology' />
           <Route element={<About /> } path='about' />
           <Route element={<Results />} path='results' />
-          {['events/:id', 'results/:id'].map(path => <Route path={path} element={<SingleEvent />} />)}
+          {['events/:id', 'results/:id'].map((path) => (
+            <Route key={path} path={path} element={<SingleEvent />} />
+          ))}
         </Route>
       </Routes>
     </BrowserRouter>
