@@ -9,7 +9,7 @@ const Header = () => {
 
     return(
     <div className="header_img">
-    <Carousel fade>
+    {/* <Carousel fade>
       
       <Carousel.Item>
         <img class="img-fluid"
@@ -44,7 +44,7 @@ const Header = () => {
           <p>Helen Keller</p>
            </Carousel.Caption>
       </Carousel.Item>
-    </Carousel>
+    </Carousel> */}
     </div>
     )
 }

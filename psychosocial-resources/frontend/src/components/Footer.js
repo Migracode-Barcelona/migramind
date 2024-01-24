@@ -16,9 +16,9 @@ function Footer() {
   	 		<div className="footer-col">
   	 			<h4>Get info</h4>
   	 			<ul>
-  	 				<li><a href="/events">Events</a></li>
-  	 				<li><a href="/psychology">Psychology</a></li>
-					   <li><a href="/about">About us</a></li>
+  	 				<li><a href="/events">Home</a></li>
+  	 				<li><a href="/psychology">Blog</a></li>
+					   {/* <li><a href="/about">About us</a></li> */}
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">

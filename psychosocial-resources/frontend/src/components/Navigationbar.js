@@ -34,19 +34,25 @@ function Navigationbar() {
       variant="light"
       className="color-nav fixed-top"
     >
-      <Navbar.Brand href="/" >
+      {/* <Navbar.Brand href="/" >
         <img src={MigramindHealth} width="160" heigth="30"/>
-</Navbar.Brand>
+</Navbar.Brand> */}
+      <div className="logo">
+      <h1>MigraMind</h1>
+      </div>
+      
+      
       <Navbar.Toggle aria-controls="navbarScroll" data-bs-target="#navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav className="me-auto my-2 my-lg-0">
           <Nav.Link href="/" >Home</Nav.Link>
-          <Nav.Link href="/events">Events</Nav.Link>
-          <Nav.Link href="/psychology">Psychology</Nav.Link>
-          <Nav.Link href="/about">About us</Nav.Link>
+          <Nav.Link href="/events">Blog</Nav.Link>
+          {/* <Nav.Link href="/psychology">Psychology</Nav.Link>
+          <Nav.Link href="/about">About us</Nav.Link> */}
         </Nav>
         <Form className="d-flex" onSubmit={handleSubmit}>
-                  <Form.Control 
+          <p>Languages</p>
+                  {/* <Form.Control 
                     type="search"
                     placeholder="Search"
                     className="me-2"
@@ -54,7 +60,7 @@ function Navigationbar() {
                     value={input}
                     onChange={e => {setInput(e.target.value)}}
                   />
-                  <button className="search-button" variant="outline-success"><img src={Search} width="30" heigth="10"/></button>
+                  <button className="search-button" variant="outline-success"><img src={Search} width="30" heigth="10"/></button> */}
                 </Form>
       </Navbar.Collapse>
     </Navbar>

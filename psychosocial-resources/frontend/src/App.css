@@ -18,7 +18,7 @@ body{
 }
 
 .color-nav {
-  background-color: #a2dbef;
+  background-color: #5DBDB9;
 }
 
 /*Header css start here*/
@@ -121,7 +121,14 @@ body{
 }
 
 .color-nav {
-  background-color: #a2dbef;
+  background-color: #5DBDB9;
+  font-family: 'Lato';
+  color: #0170BB;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-right: 80px;
 }
 
 /*Footer css start here*/
@@ -135,7 +142,7 @@ body{
 
 .container-footer{
 	max-width: 100%;
-  background-color: #A2DBEF;
+  background-color: #5DBDB9;
   display: flex;
   flex-direction: row;
   justify-content: center;

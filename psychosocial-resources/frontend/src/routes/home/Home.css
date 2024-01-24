@@ -37,7 +37,7 @@
 
 .animated-shadow {
      color: #A2D6E8;
-     font: normal 70px Genty Round, sans-serif;
+     /* font: normal 70px Genty Round, sans-serif; */
      height: 100px;
      left: 50;
      letter-spacing: 5px;
@@ -79,4 +79,83 @@
    color: #FFFFFF;
    border-radius: 560px;
    
+}
+
+/* new css style begins here  */
+
+.card {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5DBDB9(
+      118deg,
+      rgb(0 0 0) 0%,
+      rgb(0, 0, 0) 50%,
+      rgb(31 31 31) 100%
+  );
+  overflow: hidden;
+  box-shadow:
+      rgb(173 173 173) 20px -3px 22px -29px inset,
+      rgba(0, 0, 0, 0.3) 0px 0px 1px 0px inset;
+  border-radius: 20px;
+  width: clamp(180px, 27vw, 60vw);
+  transition: all 0.5s;
+  justify-content: space-between;
+  background-size: 100% 100%;
+  height: 100%;
+
+  
+
+  & .card-content {
+      display: flex;
+      flex-direction: column;
+      padding: 30px 10px;
+      align-items: center;
+      justify-content: space-around;
+      flex-grow: 1;
+
+      & .card-description {
+          color: #5A6E7E;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          text-align: center;
+          padding-bottom: 20px;
+          font-size: 17px;
+      }
+
+      .slide-right2:hover {
+          box-shadow: inset 400px 0 0 0 #ffffff;
+      }
+      .card-description-button:hover {
+          color: rgb(0, 0, 0);
+          border: 1px solid rgb(255, 255, 255);
+      }
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px 0;
+  align-items: stretch;
+  & a {
+      text-decoration: none;
+      flex-shrink: 1;
+      display: flex;
+  }
+}
+
+.about{
+  font-family: 'Lato';
+  font-size: 30px;
+  color: #5A6E7E;
+  text-align: center;
 }
