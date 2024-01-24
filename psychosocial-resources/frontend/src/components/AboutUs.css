@@ -1,0 +1,7 @@
+.about-us {
+    width: 1440px;
+    height: 935px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #0170BB -1.18%, rgba(93, 189, 185, 0.00) 122.43%);
+    color: white; /* Cambia el color del texto si es necesario */
+}

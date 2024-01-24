@@ -1,12 +1,12 @@
 import React from "react";
 import {Outlet} from "react-router-dom";
 import Footer from "../../components/Footer";
-import Navigationbar from "../../components/Navigationbar";
+import NavigationBar from "../../components/NavigationBar";
 
 const Layout = () => {
   return (
     <>
-      <Navigationbar />
+      <NavigationBar />
       <Outlet />
       <Footer />
     </>
