@@ -5,7 +5,7 @@ function NavigationBar() {
     <Navbar className="color-nav fixed-top">
       <Navbar.Brand 
         style={{ 
-          fontSize: '44px', 
+          fontSize: '30px', 
           fontFamily: "Lato", 
           fontWeight: "300",
           fontStyle: "italic",
