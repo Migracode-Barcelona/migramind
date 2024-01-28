@@ -67,10 +67,19 @@ function Navigationbar() {
           fluid
         >
           <h1 className="mx-2 header-app-name">MigraMind</h1>
-          <Nav className="d-flex flex-wrap justify-content-end align-self-center">
+          {/* <Nav className="d-flex flex-wrap justify-content-end align-self-center">
             <Nav.Link href="/" >Home</Nav.Link>
-            <Nav.Link href="/events">Blog</Nav.Link>
-          </Nav>
+            <Nav.Link href="/blog">Blog</Nav.Link>
+          </Nav> */}
+          <div className="nav-tab">
+  	 			
+  	 			
+  	 				<a href="/">Home</a>
+            
+  	 				<a href="/blog">Blog</a>
+					   
+  	 			
+  	 		</div>
         </Col>
         <Col
           xs={4}

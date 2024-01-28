@@ -16,9 +16,9 @@ function Footer() {
   	 		<div className="footer-col">
   	 			<h4>Get info</h4>
   	 			<ul>
-  	 				<li><a href="/events">Home</a></li>
-  	 				<li><a href="/psychology">Blog</a></li>
-					   {/* <li><a href="/about">About us</a></li> */}
+  	 				<li><a href="/">Home</a></li>
+  	 				<li><a href="/blog">Blog</a></li>
+					   
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
@@ -26,7 +26,7 @@ function Footer() {
   	 			<ul>
   	 				<li><i class="fab fa-whatsapp"></i> 633441511</li>
   	 				<li>Email: info@openculturalcenter.org</li>
-  	 				<li><a href="https://goo.gl/maps/Pr8kg352namjT4V37">Address: Carrer del Rec 27, 08003, Barcelona</a></li>
+  	 				<li><a href="https://goo.gl/maps/Pr8kg352namjT4V37" target="_blank">Address: Carrer del Rec 27, 08003, Barcelona</a></li>
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">

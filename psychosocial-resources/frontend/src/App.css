@@ -146,7 +146,7 @@
 .color-nav {
   background-color: #5DBDB9;
   font-family: 'Lato';
-  color: #0170BB;
+  color: #ffffff;
 }
 
 .logo {
@@ -241,7 +241,6 @@ ul {
 
 .footer-col ul li a:hover {
   color: #ffffff;
-  padding-left: 8px;
 }
 
 .footer-col .social-links a {
