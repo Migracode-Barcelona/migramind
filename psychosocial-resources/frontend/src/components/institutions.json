@@ -1,8 +1,8 @@
 [
     {
         "ID": 1,
-        "Company": "Ajuntament barcelona CAT",
-        "DESCRIPTION": "Info Barcelona is the website that publishes the news of the Barcelona City Council: the decisions of the municipal Plenary, the actions of the various areas and the most representative initiatives of the ten districts of the city. Practical information for living in the city of Barcelona: news, activities, services, work, transport, business, leisure, maps and innovation.",
+        "Company": "card1",
+        "DESCRIPTION": "card1Con",
         "URL_BASIC": "https://ajuntament.barcelona.cat/",
         "ADDRESS": "Plaça de Comas, 18 Les Corts les Corts",
         "EMAIL": "bigestio@bcn.cat", 
@@ -10,8 +10,8 @@
     },
     {
         "ID": 2,
-        "Company": "Umbral red asistencial \"psi\"",
-        "DESCRIPTION": "UMBRAL is constituted as an assistance network, made up of psychoanalysts, clinical psychologists, psychiatrists and collaborators from other areas to work on the current malaise both in culture and individually. UMBRAL proposes itself as a supportive and non-profit network, which offers treatments with accessible fees to people or institutions that request their services. This network circuit puts those who need it in contact with the right professional, allowing demands not to go unattended for economic reasons. Anguish, loneliness, maladjustment, conflicts with others, dependencies, helplessness, lack of love, violence, difficulties with knowing and knowing how to do are some of the painful problems that every subject faces at various moments of a life without power of resolution, and it is there where a professional who knows how to listen to this mental suffering can intervene to propose a cure.",
+        "Company": "card2",
+        "DESCRIPTION": "card2Con",
         "URL_BASIC": "https://www.umbral-red.org/",
         "ADDRESS": "C/ de Niça, 3, Local, 08024",
         "EMAIL": "coordinacion@umbral-red.org", 
@@ -19,8 +19,8 @@
     },
     {
         "ID": 3,
-        "Company": "Parc Sanitari Sant Joan de Déu PSSJD",
-        "DESCRIPTION": "Specific mental health care program aimed at the immigrant population who, due to their special vulnerability or need, need to receive specific adaptations of the clinical approach that is usually given in mental health. SATMI offers comprehensive care, in all its dimensions. It tries to go beyond mental health care: care for people, but also accompany them.", 
+        "Company": "card3",
+        "DESCRIPTION": "card3Con", 
         "URL_BASIC": "https://www.pssjd.org/",
         "ADDRESS": "Via Laietana, 19, 08003",
         "EMAIL": "ParcSanitari.utjj@sjd.es.", 
@@ -28,8 +28,8 @@
     },
     {
         "ID": 4,
-        "Company": "Babel Foundation - Attention to migrants",
-        "DESCRIPTION": "Reception and psychological support for migrants, asylum seekers and refugees in Barcelona. During the sessions, relational aspects are worked on (family, intercultural relationships, with the work environment, with the host society) and the identification of personal resources to deal with the situation is encouraged from a positive perspective.",
+        "Company": "card4",
+        "DESCRIPTION": "card4Con",
         "URL_BASIC": "https://www.babelpuntodeencuentro.org/",
         "ADDRESS": "Carrer dels Salvador 4, 4º, 08001",
         "EMAIL": "info@babelpuntodeencuentro.org",
@@ -37,8 +37,8 @@
     },
     {
         "ID": 5,
-        "Company": "Sant Pere Claver - Fundació Sanitària SPCSALUT",
-        "DESCRIPTION": "SAPPIR offers comprehensive mental health care (psychiatric, psychological and psychosocial) to non-EU migrants and refugees.",
+        "Company": "card5",
+        "DESCRIPTION": "card5Con",
         "URL_BASIC": "https://www.spcsalut.org/",
         "ADDRESS": "C. Vila i vilà 16, 08004",
         "EMAIL": "info@spcsalut.org",
@@ -46,8 +46,8 @@
     },
     {
         "ID": 6,
-        "Company": "Association of Systemic Transcultural Psychotherapy Terapias Sin Fronteras",
-        "DESCRIPTION": "Association of Transcultural Systemic Psychotherapy. Psychotherapeutic Care for Migrants and people of foreign origin Training in the Transcultural model to be able to evaluate and intervene in psychological problems derived from migration Design and development of Psychosocial Projects",
+        "Company": "card6",
+        "DESCRIPTION": "card6Con",
         "URL_BASIC": "https://terapiasinfronteras.com/",
         "ADDRESS": "Online",
         "EMAIL": "info@terapiasinfronteras.com",
@@ -55,8 +55,8 @@
     },
     {
         "ID": 7,
-        "Company": "Conexus",
-        "DESCRIPTION": "The CONEXUS Psychosocial Care, Training and Research Association is made up of psychologists with extensive experience in caring for people in the family, social and health spheres, as well as in training professional teams and in research. The objective of CONEXUS is to improve the well-being and health of people, especially those in situations of difficulty, crisis, violence or inequality. Through psychosocial care for women, men, girls, boys and adolescents, we want to promote the improvement of affective and family relationships, the eradication of violence, and healthy and egalitarian lifestyles. In addition, we carry out training for professionals, companies and institutions on these matters, and we carry out research, both theoretical and applied, to improve intervention and broaden knowledge.",
+        "Company": "card7",
+        "DESCRIPTION": "card7Con",
         "URL_BASIC": "https://conexus.cat/",
         "ADDRESS": "Consell de Cent 419 3r 2a – 08009",
         "EMAIL": "info@conexus.cat", 
@@ -64,8 +64,8 @@
     },
     {
         "ID": 8,
-        "Company": "Equality",
-        "DESCRIPTION": "Equality is a non-profit organization registered in Barcelona, Spain, since September 2022. We strongly believe that mental health care should be accessible to all members of society, which is why we offer free mental health services to individuals and communities facing marginalization and precariousness. Together with our local and international partners, we work with a wide range of individuals and groups, including people with refugee backgrounds, people from LGBTIQ+ communities, people facing mental or physical disabilities, people facing economic hardships, or people facing injustice anywhere. another way.",
+        "Company": "card8",
+        "DESCRIPTION": "card8Con",
         "URL_BASIC": "https://iguality.org/",
         "ADDRESS": "does not specify",
         "EMAIL": "info@iguality.org", 
@@ -73,8 +73,8 @@
     },
     {
         "ID": 9,
-        "Company": "Associació Exil",
-        "DESCRIPTION": "Therapeutic medical-psycho-social care for people who have suffered different types of Human Rights violations such as torture, persecution, war, exile or sexist violence. From the EXIL Center, psychological, psychiatric and social monitoring of these people is carried out following an interdisciplinary, comprehensive, systemic and applied therapeutic model through network practices.",
+        "Company": "card9",
+        "DESCRIPTION": "card9Con",
         "URL_BASIC": "http://asil.cat/",
         "ADDRESS": "Avda. República Argentina 6, 4º 2ª 08023 ", 
         "EMAIL": "acathi@acathi.org",
