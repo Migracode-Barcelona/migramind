@@ -128,7 +128,7 @@
   justify-content: space-between;
   background-size: 100% 100%;
   margin-bottom: 20px;
-  height: 780px;
+  
   
   @media screen and (max-width: 1024px) {
     width: calc(50% - 20px); 
