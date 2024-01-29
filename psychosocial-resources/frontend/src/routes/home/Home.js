@@ -1,6 +1,6 @@
 import Migramind from '../../img/MigraMind.png';
 import './Home.css'
-import Header from '../../components/Header';
+
 import Institutions from '../../components/institutions.json';
 import { useTranslation } from "react-i18next";
 
@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div >
-      {/* <Header /> */}
+      
       <div className="container-home">
 
         <div className='about'>
