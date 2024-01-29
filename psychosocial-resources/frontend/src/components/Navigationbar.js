@@ -57,7 +57,7 @@ function Navigationbar() {
   }, [currentLanguage]);
 
   return (
-    <Container fluid className="color-nav my-1">
+    <Container fluid className="color-nav">
       <Row>
         <Col
           xs={8}
@@ -74,9 +74,9 @@ function Navigationbar() {
           <div className="nav-tab">
   	 			
   	 			
-  	 				<a href="/">Home</a>
+  	 				<a href="/">{t("home")}</a>
             
-  	 				<a href="/blog">Blog</a>
+  	 				<a href="/blog">{t("blog")}</a>
 					   
   	 			
   	 		</div>
