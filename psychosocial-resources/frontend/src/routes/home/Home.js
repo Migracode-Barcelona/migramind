@@ -10,20 +10,12 @@ const Home = () => {
 
   return (
     <div >
-      <Header />
+      {/* <Header /> */}
       <div className="container-home">
-
-        {/* <h1 className='titulo'>WELCOME TO </h1>
-                  <div className="migracode">
-                    <img src={Migramind}/>
-                    <h5>Is an information platform on mental health in Barcelona that allows immigrants and refugees to find out about all the psychological help they can access for free.</h5>
-                  </div> */}
 
         <div className='about'>
           <p> {t("heroMsg")} </p>
         </div>
-
-
 
         <div className="cards">
           {
@@ -33,18 +25,15 @@ const Home = () => {
                 <div className="card-content">
                   <h2>{t(institution.Company)}</h2>
                   <p>{t(institution.DESCRIPTION)}</p>
-                  <p>{t(institution.PHONE)}</p>
-                  <p>{t(institution.EMAIL)}</p>
-                  <a href={institution.URL_BASIC} target="_blank" rel="noopener noreferrer" className="card-link">{t("getInfo")}</a>
+                  <p>Phone: {t(institution.PHONE)}</p>
+                  <p>E-mail: {t(institution.EMAIL)}</p>
+                  <div className='getInfo'><a href={institution.URL_BASIC} target="_blank" rel="noopener noreferrer" className="card-link">{t("getInfo")}</a></div>
                 </div>
               </div>
             ))
           }
 
-
         </div>
-
-
       </div>
     </div>
 

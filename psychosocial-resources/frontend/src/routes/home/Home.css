@@ -171,3 +171,25 @@
 .nav-tab a:hover{
   color: #FFFFFF;
 }
+
+.getInfo{
+  font-family: 'lato';
+  padding: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0170bb;
+  border-radius: 20px;
+
+  & a {
+    color: #0170bb;
+  }
+
+  & a:hover{
+    color: #f4460f;
+  }
+
+}
+
+.getInfo:hover{
+  border-color: #f4460f;
+}
