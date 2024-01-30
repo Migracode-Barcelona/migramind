@@ -23,7 +23,8 @@
     "moreInfo": "More Info",
     "getInfo":  "Get Info",
     "contact": "Contact us",
-    "email": "email",
-    "address": "address",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
     "socials": "Follow us"
 }
