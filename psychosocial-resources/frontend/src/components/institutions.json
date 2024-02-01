@@ -8,8 +8,8 @@
         "EMAIL": "bigestio@bcn.cat", 
         "PHONE": "+34 931 537 010",
         "LOGO": "https://ajuntament.barcelona.cat/normativagrafica/imatges/Merxandatge-01-RGB.jpg",
-        "COST": "Public and Free",
-        "LANGUAGES": "Spanish, Catalan" 
+        "COST": "cost1",
+        "LANGUAGES": "L1" 
     },
     {
         "ID": 2,
@@ -20,8 +20,8 @@
         "EMAIL": "coordinacion@umbral-red.org", 
         "PHONE": "+34 934 33 52 33",
         "LOGO": "https://umbral-red.org/images/logo/logo_home.png",
-        "COST": "Free agreed with client",
-        "LANGUAGES": "Spanish, Catalan, Franch, Hebrew, English, Italian, Portugese, Romanian"
+        "COST": "cost2",
+        "LANGUAGES": "L2"
     },
     {
         "ID": 3,
@@ -32,8 +32,8 @@
         "EMAIL": "ParcSanitari.utjj@sjd.es", 
         "PHONE": "+34 93 640 63 50",
         "LOGO": "https://www.pssjd.org/wp-content/uploads/2020/03/logoweb.png",
-        "COST": "Free",
-        "LANGUAGES": "Spanish, Catalan, Franch, Euskara, Galego, Deutsch, English, Italian, Portugese, Nederlands, Pyccknn, Chinese, Japanese, Korean"
+        "COST": "costFree",
+        "LANGUAGES": "L3"
     },
     {
         "ID": 4,
@@ -44,8 +44,8 @@
         "EMAIL": "info@babelpuntodeencuentro.org",
         "PHONE": "+34 93 295 57 93",
         "LOGO": "https://www.babelpuntodeencuentro.org/wp-content/themes/babel/img/bpde-logo.svg",
-        "COST": "Free for those who cannot afford it, 20 Euro for those who can.",
-        "LANGUAGES": "English, French, Catalan, and translator from Arabic"
+        "COST": "cost3",
+        "LANGUAGES": "L4"
     },
     {
         "ID": 5,
@@ -56,8 +56,8 @@
         "EMAIL": "sappir@pereclaver.org",
         "PHONE": "+34 934 42 39 03",
         "LOGO": "https://www.pereclaver.org/wp-content/uploads/2022/11/salut-mental-logo.png",
-        "COST": "Free",
-        "LANGUAGES": "Arab, Darija, Chinese, Urdu, Spanish, Catalan"
+        "COST": "costFree",
+        "LANGUAGES": "L5"
     },
     {
         "ID": 6,
@@ -68,8 +68,8 @@
         "EMAIL": "info@terapiasinfronteras.com",
         "PHONE": "+34 914 299 756",
         "LOGO": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_800,h_172/https://terapiasinfronteras.com/wp-content/uploads/2020/07/lolo-tsfFinal.png",
-        "COST": "35 Euro individual therapy, and 40 Euro family or couple therapy",
-        "LANGUAGES": "Spanish, English" 
+        "COST": "cost4",
+        "LANGUAGES": "L6" 
     },
     {
         "ID": 7,
@@ -80,8 +80,8 @@
         "EMAIL": "info@conexus.cat", 
         "PHONE": "+34 93 217 16 46",
         "LOGO": "https://conexus.cat/wp-content/uploads/2021/10/conexus-logo-header.png",
-        "COST": "Free",
-        "LANGUAGES": "Catalan, Spanish" 
+        "COST": "costFree",
+        "LANGUAGES": "L1" 
     },
     {
         "ID": 8,
@@ -92,8 +92,8 @@
         "EMAIL": "info@iguality.org", 
         "PHONE": "+34 633 05 69 40",
         "LOGO": "https://iguality.org/wp-content/uploads/2022/08/Logos-wide1-2048x683.png",
-        "COST": "Free",
-        "LANGUAGES": "Spanish, Catalan, English, Arab, Ukraine, Netherland" 
+        "COST": "costFree",
+        "LANGUAGES": "L7" 
     },
     {
         "ID": 9,
@@ -104,7 +104,7 @@
         "EMAIL": "acathi@acathi.org",
         "PHONE": "+34 910 474 444",
         "LOGO": "http://asil.cat/wp-content/uploads/2015/06/asil-cat-logo.png",
-        "COST": "Free",
-        "LANGUAGES": "English, Spanish, Catalan"
+        "COST": "costFree",
+        "LANGUAGES": "L8"
     } 
 ]    
