@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Nav, Navbar } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 import Dropdown from "react-bootstrap/Dropdown";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
@@ -67,19 +67,13 @@ function Navigationbar() {
           fluid
         >
           <h1 className="mx-2 header-app-name">MigraMind</h1>
-          {/* <Nav className="d-flex flex-wrap justify-content-end align-self-center">
-            <Nav.Link href="/" >Home</Nav.Link>
-            <Nav.Link href="/blog">Blog</Nav.Link>
-          </Nav> */}
           <div className="nav-tab">
   	 			
-  	 			
-  	 				<a href="/">{t("home")}</a>
+  	 				<Button href="/">{t("home")}</Button>
             
-  	 				<a href="/blog">{t("blog")}</a>
-					   
-  	 			
-  	 		</div>
+  	 				<Button href="/blog">{t("blog")}</Button>
+					   	
+  	 		  </div>
         </Col>
         <Col
           xs={4}
