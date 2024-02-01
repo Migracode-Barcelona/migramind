@@ -189,3 +189,7 @@
 .getInfo:hover{
   border-color: #f4460f;
 }
+
+.centered-image {
+  text-align: center;
+}
