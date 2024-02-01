@@ -14,14 +14,7 @@ function Footer() {
 				<img className="integrate-logo" src={Integrate} style={{width: "150px", height: "65px",}}/>
 			</div>
   	 		
-  	 		<div className="footer-col">
-  	 			<h4>{t("getInfo")}</h4>
-  	 			<ul>
-  	 				<li><a href="/">{t("home")}</a></li>
-  	 				<li><a href="/blog">{t("blog")}</a></li>
-					   
-  	 			</ul>
-  	 		</div>
+   
   	 		<div className="footer-col">
   	 			<h4>{t("contact")}</h4>
   	 			<ul>
