@@ -193,3 +193,18 @@
 .centered-image {
   text-align: center;
 }
+
+.back-to-top {
+  font-weight: bolder; 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #5DBDB9; 
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 40px; 
+  font-weight: bolder; 
+}
