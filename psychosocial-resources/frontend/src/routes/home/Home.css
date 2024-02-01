@@ -122,7 +122,7 @@
   box-shadow:
       rgb(173 173 173) 20px -3px 22px -29px inset,
       rgba(0, 0, 0, 0.3) 0px 0px 1px 0px inset;
-  border-radius: 20px;
+  border-radius: 20px !important;
   width: calc(33.33% - 20px);
   transition: all 0.5s;
   justify-content: space-between;
