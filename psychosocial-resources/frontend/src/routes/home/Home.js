@@ -44,8 +44,8 @@ const Home = () => {
                   <img src={institution.LOGO} alt='logo' width="250px"></img>
                   <h2  dir='ltr'>{t(institution.Company)}</h2>
                   <p>{t(institution.DESCRIPTION)}</p>
-                  <p>Cost: {institution.COST}</p>
-                  <p>Languages: {institution.LANGUAGES}</p>
+                  <p>{t("cost")}: {t(institution.COST)}</p>
+                  <p>{t("languages")}: {t(institution.LANGUAGES)}</p>
                   <p></p>
                   <p>{t("phone")}: <span dir="ltr">{institution.PHONE}</span></p>
                   <p>{t("email")}: {institution.EMAIL}</p>
