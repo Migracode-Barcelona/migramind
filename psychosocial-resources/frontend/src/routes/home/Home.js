@@ -1,4 +1,4 @@
-import Migramind from '../../img/MigraMind.png';
+import React, { useState, useEffect } from 'react';
 import './Home.css'
 import Institutions from '../../components/institutions.json';
 import { useTranslation } from "react-i18next";
@@ -6,6 +6,25 @@ import { useTranslation } from "react-i18next";
 
 const Home = () => {
   const { t } = useTranslation();
+  const [showBackToTop, setShowBackToTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setShowBackToTop(scrollPosition > 200); 
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
 
   return (
     <div >
@@ -37,6 +56,11 @@ const Home = () => {
           }
         </div>
       </div>
+      {showBackToTop && (
+        <button className="back-to-top" onClick={scrollToTop}>
+          ^
+        </button>
+      )}
     </div>
 
   );
